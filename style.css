@@ -1,0 +1,105 @@
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    border-bottom: 2px solid blanchedalmond;
+}
+.header .title{
+    font-weight: 900;
+    font-size: 24px;
+    height: 48px;
+    
+
+}
+.right{
+    display: flex;
+    font-weight: 100;
+    gap: 12px;
+}
+.upper{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    gap: 16px;
+    
+}
+.upper div button{
+    padding: 8px;
+}
+#bold{
+    font-weight: 700;
+    font-size: 50px;
+    padding: auto;
+}
+#subtext{
+    padding: auto;
+}
+.upper img{
+    width: 100px;
+    height: 50px;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.small img{
+    height: 150px;
+    width: 80px;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+}
+.quote{
+    background-color: grey;
+    color:bisque;
+    font-size: 30px;
+    text-align: center;
+}
+.quote div{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 12px;
+
+}
+.link{
+    display: flex;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    background-color: blue;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+}
+.link div button{
+    padding: 8px;
+    border: 2px solid white;
+    color: white;
+    background-color: blue;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+    color: white;
+    background-color: black;
+    font-weight: 200;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
